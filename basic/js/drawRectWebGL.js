@@ -44,6 +44,11 @@ function initVertexBuffers(gl) {
   var vertices = new Float32Array([
     -0.5, 0.5,  -0.5, -0.5,  0.5, 0.5,  0.5, -0.5
   ]);
+  //  v0------v2
+  //  |      / | 
+  //  |    /   |
+  //  |  /     |
+  //  v1------v3
   var n = 4; // The number of vertices
 
   // Create a buffer object
